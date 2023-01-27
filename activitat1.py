@@ -71,7 +71,7 @@ print ( 'ACTIVIDAD 9' )
 n1 = int(input('Inserta la nota del primer examen'))
 n2 = int(input('Inserta la nota del segon examen'))
 nl = int(input('Inserta la nota de laboratori'))
-Nf = ((60 - ( 0.3 * 65 ))/0.7) * 3 + n1 - n2
+Nf = ((60 - ( 0.3 * 65 ))/0.7) * 3 - n1 - n2
 print ('La nota final que necesitas es' ,round(Nf) )
 
 ------------------------------------------------------------------------------------------------------------------------
